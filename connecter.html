@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="connecter.js"></script>
+</head>
+
+<body>
+    <div class="col d-flex justify-content-center">
+        <form name="f"> 
+            <div class="text-center"> <h3> Formulaire </h3></div> <br> 
+            <label for="name">Nom:</label>
+            <input class="form-control" type="name" name="name"> <br>
+            <label for="Prenom">Prenom:</label>
+            <input class="form-control" type="Nom" name="surname"> <br>
+            <label for="Date">Date de naissance:</label>
+            <input id="date" class="form-control" type="date" name="date"> <br> 
+            <label for="phone">Numero de telephone:</label>
+            <input class="form-control" type="numero" name="numero"> <br> 
+            <label for="login">Login:</label>
+            <input class="form-control" type="email" name="login"> <br> 
+            <label for="password">Password:</label>
+            <input class="form-control" type="password" name="password"> <br>
+
+            <label for="Adresse">Adresse:</label>
+            <textarea name="" id="" cols="30" rows="4" class="form-control" type="adresse" name="adresse" ></textarea>  <br> 
+
+            <input type="button" value="Se Connecter" onclick="test();"> 
+            <input type="reset" value="Annuler">
+        </form>
+    </div>
+</body>
+
+</html>
